@@ -1,4 +1,4 @@
-package JavaTeam;
+package src;
 
 import java.util.Scanner;
 

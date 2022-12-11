@@ -11,20 +11,20 @@ public class ifElse2 {
         System.out.println("Yaşınızı girin");
         int yas = input.nextInt();
 
-        if (cinsiyet ==0 ) {
+        if (cinsiyet == 0) {
             if (yas >= 65) {
                 System.out.println("Emekli oldun adamım");
             } else {
-                System.out.println("Emekli olmak için " + (65  - yas) + " yıl daha çalışmalısın.");
+                System.out.println("Emekli olmak için " + (65 - yas) + " yıl daha çalışmalısın.");
             }
-        } else if (cinsiyet ==1) {
+        } else if (cinsiyet == 1) {
             if (yas >= 60) {
                 System.out.println("Emekli oldun");
-            }else {
-                System.out.println("Emekli olmak için " + (60  - yas) +" yıl daha çalışmalısın.");
+            } else {
+                System.out.println("Emekli olmak için " + (60 - yas) + " yıl daha çalışmalısın.");
             }
         }
-            System.out.println();
-        }
+        System.out.println();
     }
+}
 

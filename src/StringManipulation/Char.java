@@ -1,2 +1,4 @@
-package JavaTeam;public class Char {
+package JavaTeam;
+
+public class Char {
 }

@@ -9,7 +9,7 @@ public class DataCasting {
         int num1 = input.nextInt();
         int num2 = input.nextInt();
         int num3 = input.nextInt();
-        double average = (double) (num1 + num2 + num3) /3;
+        double average = (double) (num1 + num2 + num3) / 3;
         System.out.println("3 sayinin ortalaması: " + average);
 
 

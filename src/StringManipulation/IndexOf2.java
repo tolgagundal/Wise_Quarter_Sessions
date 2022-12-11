@@ -17,11 +17,7 @@ public class IndexOf2 {
         System.out.println(cumle.substring(cokIndex, boslukIndex));
 
 
-
-
-
-
     }
 
-    }
+}
 

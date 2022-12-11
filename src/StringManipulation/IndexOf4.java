@@ -13,7 +13,7 @@ public class IndexOf4 {
         int ilkCokIndexi = str.indexOf("cok");
         int sonCokIndexi = str.lastIndexOf("cok");
 
-        if(!str.contains("cok")) {
+        if (!str.contains("cok")) {
             System.out.println("yok");
         } else if (ilkCokIndexi == sonCokIndexi) {
             System.out.println("Bir tane cok var");

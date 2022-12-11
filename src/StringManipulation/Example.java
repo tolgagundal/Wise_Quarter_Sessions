@@ -8,8 +8,7 @@ public class Example {
 
         if (calisilacakStr.contains("ev") && calisilacakStr.contains("is")) {
             System.out.println("hybrit");
-        }
-       else if (calisilacakStr.contains("ev")) {
+        } else if (calisilacakStr.contains("ev")) {
             System.out.println("Home sweet home");
         } else if (calisilacakStr.contains("is")) {
             System.out.println("calismak iyi");

@@ -4,7 +4,7 @@ public class ReplaceAll {
     public static void main(String[] args) {
         String str = "Ja1va 56Guz, zel-dir";
         // Sayılardan kurtul
-        System.out.println(str.replace("1", "").replace("5", "").replace("6",""));
+        System.out.println(str.replace("1", "").replace("5", "").replace("6", ""));
 
 
         // Bu genellemeleri yazabilmek için regex (regular expressions)
@@ -20,7 +20,7 @@ public class ReplaceAll {
         input2 = input2.replaceAll("\\W", "");
         System.out.println(input2.length());
 
-      input2 =  input2.replaceFirst("J","j");
+        input2 = input2.replaceFirst("J", "j");
         System.out.println(input2);
 
 

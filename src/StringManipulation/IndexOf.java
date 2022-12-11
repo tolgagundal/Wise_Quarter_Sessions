@@ -8,8 +8,8 @@ public class IndexOf {
 
         String str = "Java ile kodlama cok guzel";
 
-        int ilkOindexi =str.indexOf("o");
-        int ikinciOindexi = str.indexOf("o",ilkOindexi+1);
+        int ilkOindexi = str.indexOf("o");
+        int ikinciOindexi = str.indexOf("o", ilkOindexi + 1);
         System.out.println(ilkOindexi + " ve " + ikinciOindexi);
     }
 }

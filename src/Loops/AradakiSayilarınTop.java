@@ -11,10 +11,10 @@ public class AradakiSayilarınTop {
         int bitis = input.nextInt();
 
         if (bitis < baslangic) {
-                System.out.println("Yanlıs deger girdiniz");
-            } else {
-                int toplam = 0;
-                for (int i = baslangic; i <= bitis; i++) {
+            System.out.println("Yanlıs deger girdiniz");
+        } else {
+            int toplam = 0;
+            for (int i = baslangic; i <= bitis; i++) {
                 toplam += i;
             }
             System.out.println(baslangic + " ile " + bitis + " arasındaki degerlerin toplami: " + toplam);

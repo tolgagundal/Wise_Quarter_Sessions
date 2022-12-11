@@ -6,9 +6,9 @@ public class TersLoop {
 
         String terstenStr = "";
 
-        for (int i = str.length()-1; i >= 0 ; i--) {
+        for (int i = str.length() - 1; i >= 0; i--) {
 
-            terstenStr += str.substring(i,i+1);
+            terstenStr += str.substring(i, i + 1);
 
         }
         System.out.println("Tersten yazilisi: " + terstenStr);

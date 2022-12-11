@@ -12,7 +12,7 @@ public class VariableScanner {
 
         System.out.println(num1 + " is a int " + num2 + " is a float (6-7 digits) " + num3 + " is a double ( 15-16 digits");
 
-    System.out.println("Enter your name, surname and age");
+        System.out.println("Enter your name, surname and age");
         Scanner scan = new Scanner(System.in);
 
         String name = scan.nextLine();

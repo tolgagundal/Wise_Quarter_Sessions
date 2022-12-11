@@ -10,12 +10,12 @@ public class ForLoop5 {
 
         for (int i = 1; i < sayi; i++) {
 
-            if(i%3==0 && i%5==0) {
+            if (i % 3 == 0 && i % 5 == 0) {
                 System.out.print(" fizzBuzz ");
-            } else if (i %5 ==0) {
+            } else if (i % 5 == 0) {
                 System.out.print(" buzz ");
 
-            } else if (i %3 ==0) {
+            } else if (i % 3 == 0) {
                 System.out.print("  lizz  ");
             } else System.out.print(i + " ");
 

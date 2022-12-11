@@ -10,12 +10,12 @@ public class ForLoop4 {
         String str = "Java Cok Guzel";
 
         for (int i = 0; i < str.length(); i++) {
-            if (i%2==0) {
-                System.out.print(str.substring(i,i+1).toUpperCase());
-        } else {
-                System.out.print(str.substring(i,i+1).toLowerCase());
+            if (i % 2 == 0) {
+                System.out.print(str.substring(i, i + 1).toUpperCase());
+            } else {
+                System.out.print(str.substring(i, i + 1).toLowerCase());
             }
 
-    }
+        }
     }
 }

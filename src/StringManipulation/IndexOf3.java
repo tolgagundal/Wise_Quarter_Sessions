@@ -6,12 +6,12 @@ public class IndexOf3 {
 
         String input = "1-48 over 99 results for  \"nutella\"";
 
-     int indexOver = input.indexOf("over");
-     int indexResult = input.indexOf("results");
+        int indexOver = input.indexOf("over");
+        int indexResult = input.indexOf("results");
 
-     String sonucString = input.substring(indexOver+5, indexResult-1);
+        String sonucString = input.substring(indexOver + 5, indexResult - 1);
 
-     // Arama sayısının 50'den fazla olduğunu test et
+        // Arama sayısının 50'den fazla olduğunu test et
 
         int sonucInt = Integer.parseInt(sonucString);
 

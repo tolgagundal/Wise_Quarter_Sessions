@@ -1,4 +1,4 @@
-package JavaTeam.Loops;
+package src.Loops;
 
 import java.util.Scanner;
 
@@ -9,10 +9,10 @@ public class AsalSayi {
         String sonuc = "Sayi asal";
 
         for (int i = 2; i < sayi; i++) {
-            if (sayi%i==0) {
-                sonuc= "Sayi asal degil";
+            if (sayi % i == 0) {
+                sonuc = "Sayi asal degil";
 
-               // break;
+                // break;
                 // Java, bir loop'un içerisinde "break" gorurse o loop biter.
             }
         }

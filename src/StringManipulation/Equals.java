@@ -5,7 +5,7 @@ public class Equals {
 
         String str1 = "Java";
         String str2 = "Java";
-        String str3 = new String ("Java");
+        String str3 = new String("Java");
         String str4 = "JAVA";
 
         System.out.println(str1.equals(str2));

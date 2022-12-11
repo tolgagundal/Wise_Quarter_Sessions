@@ -27,14 +27,11 @@ public class StringManipulation {
                 System.out.println(girilenGun + " calısma zamanı, tatile 1 gün var");
                 break;
             case "cumartesi":
-            case "pazar" :
+            case "pazar":
                 System.out.println("Dinlenme zamanı");
                 break;
             default:
                 System.out.println("Yanlıs girdiniz");
-
-
-
 
 
         }

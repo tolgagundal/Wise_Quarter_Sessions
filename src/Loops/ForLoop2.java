@@ -9,9 +9,9 @@ public class ForLoop2 {
         int num1 = input.nextInt();
         int num2 = input.nextInt();
         int count = 0;
-        int sum=0;
+        int sum = 0;
 
-        for (int i = num1; i < num2; i+=7) {
+        for (int i = num1; i < num2; i += 7) {
             count++;
             System.out.print(i + " ");
             sum += i;
