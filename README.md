@@ -1,1 +1,1 @@
-# Wise_Quarter_Sessions
+# Practice Sessions
